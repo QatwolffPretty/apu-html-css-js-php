@@ -1,4 +1,3 @@
-
 ### HTML Basics
 
 HTML is made up of elements that are enclosed in angle brackets. Elements can have attributes that provide additional information about the element. Here's a basic HTML template:

@@ -7,7 +7,7 @@ HTML5, which was finalized and published in October 2014 by the World Wide Web C
      <p>Blog content...</p>
    </article>
    ```
-
+ 
 2. **`<aside>`** - Represents a portion of a document whose content is only indirectly related to the main content.
    ```html
    <aside>

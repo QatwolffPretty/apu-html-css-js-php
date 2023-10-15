@@ -10,7 +10,7 @@ A basic example of a web page with a header, footer, and a sidebar using HTML an
     <title>Sample Layout</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body> 
 
 <div class="container">
     <header>

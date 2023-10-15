@@ -85,6 +85,7 @@ $('#myId').fadeOut();
 $('#myId').fadeIn();
 ```
 
+
 ### 6. AJAX
 
 Fetch data from a server without refreshing the page.

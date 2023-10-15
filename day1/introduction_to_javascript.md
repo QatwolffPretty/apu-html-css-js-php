@@ -1,6 +1,6 @@
 ## History of Javascript
 JavaScript's history is quite intriguing, considering how it has grown from being a language primarily for the web to becoming one of the most popular and widely used languages in various domains. Here's a brief history:
-
+ 
 ### The Birth of JavaScript
 
 1. **1995**: **Brendan Eich**, then at Netscape, was tasked with developing a new scripting language for the Netscape Navigator browser. This language was initially named **Mocha**, later renamed to **LiveScript**, and eventually renamed **JavaScript**. It's noteworthy to mention that JavaScript is not directly related to Java; the naming was more of a marketing move since Java was gaining popularity at the time.
