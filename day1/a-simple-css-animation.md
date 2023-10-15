@@ -1,5 +1,5 @@
 Let's create a simple animation where a circle moves from the left to the right side of a container when hovered over.
-
+ 
 ### HTML:
 ```html
 <!DOCTYPE html>

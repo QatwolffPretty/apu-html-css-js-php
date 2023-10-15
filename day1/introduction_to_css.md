@@ -1,4 +1,3 @@
-
 ### Introduction to CSS
 
 CSS stands for **Cascading Style Sheets**. It's a stylesheet language used for describing the look and formatting of a document written in HTML or XML. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media. CSS is one of the core languages of the Web and is standardized by the W3C.
