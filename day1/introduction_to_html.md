@@ -6,10 +6,10 @@ HTML is made up of elements that are enclosed in angle brackets. Elements can ha
 ```html
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
     <title>My First Web Page</title>
 </head>
-<body>
+    <body>
     <h1>Welcome to My Web Page</h1>
     <p>This is a paragraph of text.</p>
 </body>
