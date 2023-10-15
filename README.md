@@ -1,1 +1,1 @@
-# apu-html-css-js-php
+# HTML, CSS, Javascript and PHP Training Sessions
