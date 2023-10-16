@@ -1,3 +1,38 @@
+### History of HTML
+HTML stands for **Hypertext Markup Language**, and it is the standard language used to create and design websites. Here is a brief history of HTML:
+
+1. **Late 1980s to Early 1990s: The Beginnings**
+    - British physicist **Tim Berners-Lee**, working at CERN (The European Organization for Nuclear Research), introduced the idea of a "World Wide Web" as a way to share information among researchers across the globe.
+    - In 1990, he proposed a system using hypertext, which would allow users to navigate between documents using clickable links.
+    - The first HTML was born as part of this proposal, alongside the first web browser and the HTTP protocol.
+
+2. **HTML 2.0 (1995)**
+    - The first official specification for HTML was released in 1995 as RFC 1866. This version consolidated the various tags and attributes that had been introduced by different browser manufacturers.
+    - It included basic elements like headers, paragraphs, lists, and links.
+
+3. **HTML 3.2 (1997)**
+    - This version added support for scripting languages like JavaScript, tables for layout (which became highly popular, albeit misused for design purposes), and more formatting options.
+
+4. **HTML 4.0 (1997) & HTML 4.01 (1999)**
+    - Introduced features to improve document structure (like the separation of content and presentation), including the introduction of stylesheets (CSS) and improved form elements.
+    - Introduced the `<!DOCTYPE>` declaration to specify the version of HTML.
+    - HTML 4.01 was a revision of 4.0 with some bug fixes and minor updates.
+
+5. **XHTML 1.0 (2000)**
+    - This is not exactly HTML but an XML-based version of it, known as Extensible Hypertext Markup Language. It demanded a stricter syntax and was more rigid in terms of coding practices.
+    - Despite its strictness, it was widely adopted and encouraged better web coding habits.
+
+6. **HTML5 (2014)**
+    - Development began in 2004 by the Web Hypertext Application Technology Working Group (WHATWG). The World Wide Web Consortium (W3C) and WHATWG cooperated on its development.
+    - HTML5 was a major upgrade, emphasizing native support for multimedia (via `<video>` and `<audio>` tags), canvas drawing, semantics (with tags like `<header>`, `<footer>`, `<article>`, and `<section>`), and more.
+    - It also aimed to make the web more interoperable and reduce the need for third-party plugins like Flash.
+
+7. **Current Status**
+    - HTML5 is now the standard and is widely adopted across the web. While the WHATWG sees HTML as a living standard, evolving continuously, the W3C still maintains milestone snapshots.
+
+Throughout its history, HTML has been influenced by the browser wars, where different browser manufacturers would introduce proprietary tags or interpret specifications differently. As the web matured, there has been a push for standardization to ensure a consistent user experience across different devices and browsers.
+
+
 ### HTML Basics
 
 HTML is made up of elements that are enclosed in angle brackets. Elements can have attributes that provide additional information about the element. Here's a basic HTML template:
