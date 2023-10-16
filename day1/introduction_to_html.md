@@ -32,6 +32,7 @@ HTML stands for **Hypertext Markup Language**, and it is the standard language u
 
 Throughout its history, HTML has been influenced by the browser wars, where different browser manufacturers would introduce proprietary tags or interpret specifications differently. As the web matured, there has been a push for standardization to ensure a consistent user experience across different devices and browsers.
 
+-----------------
 
 ### HTML Basics
 
