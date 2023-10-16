@@ -85,3 +85,33 @@ alert(elements); // Need to work on this.
     elements.style.color = "blue";
 //elements.style.fontSize = "20px";
 }
+
+
+
+function ChangeColorofAllPTags()
+{
+    let elements = document.getElementsByTagName("p");
+// First Way
+/*
+    for (let i = 0; i < elements.length; i++) {
+    elements[i].style.color = "blue";
+}
+
+*/
+
+// Second Way
+
+Array.from(elements).forEach(element => {
+    element.style.color = "blue";
+});
+
+// Third Way
+/*
+for (let element of elements) {
+    element.style.color = "red";
+}
+*/
+
+
+
+}
