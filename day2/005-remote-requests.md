@@ -1,4 +1,4 @@
-##JSONPlaceHolder
+### JSONPlaceHolder
 
 **JSONPlaceholder** is a free online REST API that you can use whenever you need some fake data for testing or prototyping. It's a simple service that allows developers to simulate requests to a real server.
 
