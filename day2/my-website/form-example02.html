@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form Examples</title>
+    <style>
+body {margin-top: 130px;}
+#reg_form {font-size: 24px;margin-bottom: 20px;color:chocolate}
+    </style>
+</head>
+<body>
+
+    <hr color="blue">
+
+    <div id="reg_form">Registration Form</div>
+
+
+    <form action="/submit" method="post">
+
+        <!-- Text Input -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+      
+        <!-- Password Input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        
+       <!-- Password Input -->
+       <label for="password">Re Enter Password:</label>
+       <input type="password" id="re-password" name="re-password"><br><br>
+
+
+       
+        <!-- Text Input -->
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname" name="firstname"><br><br>
+       
+        <!-- Text Input -->
+        <label for="firstname">Last name:</label>
+        <input type="text" id="lastname" name="lastname"><br><br>
+
+
+        
+
+
+        <!-- Radio Buttons -->
+        Gender:
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+      
+        <!-- Checkbox -->
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to newsletter</label><br><br>
+      
+    <!-- Checkbox -->
+    <label for="subscribe">Your Picture</label><br><br>
+    <input type="file" id="picture" name="picture">
+    <br><br>
+          <!-- Checkbox -->
+          <label for="hobbies">Your Hobbies</label><br><br>
+          <input type="checkbox" id="hobby_reading" name="hobby" value="yes"> Reading
+          <input type="checkbox" id="hobby_music" name="hobby" value="yes"> Music
+         
+          <br><br>
+        <!-- Dropdown Selection -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+        <option value="usa">USA</option>   <option value="usa">USA</option>   <option value="usa">USA</option>   <option value="usa">USA</option>   <option value="usa">USA</option>
+          <option value="india">India</option>
+          <option value="india">India</option>
+          <!-- Other options can be added -->
+        </select><br><br>
+      
+        <!-- Dropdown Selection -->
+        <label for="country">Places you visited</label><br>
+        <select id="country" name="country" multiple>
+        <option value="usa">USA</option>   <option value="usa">USA</option>   <option value="usa">USA</option>   <option value="usa">USA</option>   <option value="usa">USA</option>
+          <option value="india">India</option>
+          <option value="india">India</option>
+          <!-- Other options can be added -->
+        </select><br><br>
+      
+        <!-- Textarea -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="10" cols="50"></textarea><br><br>
+      
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+      
+      </form>
+
+    
+</body>
+</html>
