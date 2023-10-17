@@ -3,12 +3,12 @@
 
  |ID |Topic                                                    |Duration|Day|Status|
 |---|---------------------------------------------------------|--------|---|---|
-|0  |Setup                                                    |1       |1  |      
-|1  |Overview of HTML and CSS                                 |2       |1  |      
-|2  |Creating and Styling HTML5 Pages                         |3       |1  |      
-|3  |Introduction to JavaScript                               |2       |1  |      
-|4  |Creating Forms to Collect Data and Validate User Input   |4       |2  |      
-|5  |Communicating with a Remote Data Source                  |4       |2  |      
+|0  |Setup                                                    |1       |1  | Completed     
+|1  |Overview of HTML and CSS                                 |2       |1  | Completed 
+|2  |Creating and Styling HTML5 Pages                         |3       |1  | Completed
+|3  |Introduction to JavaScript                               |2       |1  |      Completed
+|4  |Creating Forms to Collect Data and Validate User Input   |4       |2  |      Completed
+|5  |Communicating with a Remote Data Source                  |4       |2  |      Completed
 |6  |Styling HTML5 by using CSS3                              |2       |3  |      
 |7  |Creating Objects and Methods by Using Javascript         |4       |3  |      
 |8  |Creating Interactive Pages Using HTML5 APIs              |2       |3  |      
