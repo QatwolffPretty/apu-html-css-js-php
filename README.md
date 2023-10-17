@@ -1,8 +1,8 @@
 # HTML, CSS, Javascript, and PHP Training Sessions
 
 
- |ID |Topic                                                    |Duration|Day|
-|---|---------------------------------------------------------|--------|---|
+ |ID |Topic                                                    |Duration|Day|Status|
+|---|---------------------------------------------------------|--------|---|---|
 |0  |Setup                                                    |1       |1  |      
 |1  |Overview of HTML and CSS                                 |2       |1  |      
 |2  |Creating and Styling HTML5 Pages                         |3       |1  |      
