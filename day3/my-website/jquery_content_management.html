@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Content Management</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+</head>
+<body>
+
+    <input type="text" id="mytodoitem" name="mytodoitem">
+    <button onclick="addTask()"> Add Task Item</button>
+
+
+<div id="mytodolist"> <h1>To Do Tasks </h1> </div>
+
+<script>
+function addTask()
+{
+   puretask=$("#mytodoitem").val()
+
+task="<li>"+puretask+"</li>";
+    $("#mytodolist").append(task);
+
+
+    
+  //  console.log("I am in the add Task Function");
+    //console.log(task)
+
+}
+
+</script>
+
+</body>
+</html>

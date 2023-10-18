@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Example</title>
+    <style>
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          
+          .flex-container > div {
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            border: 1px solid black;
+          }
+          img {height: 100px;}
+
+    </style>
+</head>
+<body>
+    
+    <div class="flex-container">
+        <div><img src="image1.jpg"></div>
+        <div><img src="image2.jpg"></div>
+        <div><img src="image3.jpg"> </div>
+
+      </div>
+</body>
+</html>

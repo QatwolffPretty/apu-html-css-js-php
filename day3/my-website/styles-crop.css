@@ -1,0 +1,21 @@
+.crop-container {
+    width: 300px;  /* Desired width of the cropped area */
+    height: 600px; /* Desired height of the cropped area */
+    overflow: hidden; /* Hide the parts of the image outside the container */
+    position: relative;
+}
+
+.crop-container img {
+    /* Adjust these values to position the part of the image you want to show inside the container */
+    position: relative;
+    /* Move the image up by 50px to show a lower part */
+    
+    
+    top: -100px; 
+    
+
+     /* Move the image to the left by 50px to show a right part */
+    
+    left: -250px;
+
+}

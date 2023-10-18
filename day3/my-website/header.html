@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {margin:0px}
+        .crop-container {
+            width: 100%;  /* Desired width of the cropped area */
+            height: 150px; /* Desired height of the cropped area */
+            overflow: hidden; /* Hide the parts of the image outside the container */
+            position: relative;
+            background-color: burlywood;
+        }
+
+        .crop-container img {
+
+            position: absolute;
+            left:-100px;
+            top:-100px;
+        }
+
+        .myheader {}
+    </style>
+</head>
+<body>
+    <div class="crop-container" >
+        <div id="myheader"> This is my header</div>
+   
+        <img src="image3.jpg">
+
+        <div id="myheader"> This is second header</div>
+   
+   
+</div>
+</body>
+</html>
