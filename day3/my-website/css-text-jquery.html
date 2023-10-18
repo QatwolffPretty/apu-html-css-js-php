@@ -9,6 +9,15 @@
             font-family: Arial, sans-serif;
             font-size: 20px;
         }
+        .myText {
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            font-weight: normal;
+            text-decoration: none;
+            text-shadow: none;
+
+        }
+        
     </style>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
@@ -23,10 +32,11 @@
 <button id="addShadow">Add Shadow</button>
 
 
-<p id="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea nisi, expedita quia magni beatae a, delectus perspiciatis quidem voluptatum accusamus deleniti cumque fugit. Voluptatum quod iure doloribus, amet officia eos aut illo non, ullam earum hic, at ad quisquam accusamus. Magnam quos quas ad repellendus nobis facere, quae omnis reiciendis.
-    
-</p>
 
+<p id="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea nisi, expedita quia magni beatae a, delectus perspiciatis quidem voluptatum accusamus deleniti cumque fugit. Voluptatum quod iure doloribus, amet officia eos aut illo non, ullam earum hic, at ad quisquam accusamus. Magnam quos quas ad repellendus nobis facere, quae omnis reiciendis.
+
+</p>
+<button id="resetbutton"> Reset</button>
 <script>
     $(document).ready(function() {
         $("#changeFont").click(function() {
@@ -47,6 +57,16 @@
 
         $("#addShadow").click(function() {
             $("#text").css("text-shadow", "2px 2px 5px gray");
+        });
+        $("#resetbutton").click(function() {
+            $("#text").css("font-family", "Arial, sans-serif");
+            $("#text").css("font-weight", "normal");
+            $("#text").css("font-style", "normal");
+            $("#text").css("text-decoration", "none");
+            $("#text").css("text-shadow", "none");
+        
+            //$("#text").addClass("myText");
+
         });
     });
 </script>
