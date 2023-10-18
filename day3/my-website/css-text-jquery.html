@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Styling with CSS3 and jQuery</title>
+    <style>
+        #text {
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+
+
+<button id="changeFont">Change Font</button>
+<button id="makeBold">Make Bold</button>
+<button id="makeItalic">Make Italic</button>
+<button id="underlineText">Underline</button>
+<button id="addShadow">Add Shadow</button>
+
+
+<p id="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea nisi, expedita quia magni beatae a, delectus perspiciatis quidem voluptatum accusamus deleniti cumque fugit. Voluptatum quod iure doloribus, amet officia eos aut illo non, ullam earum hic, at ad quisquam accusamus. Magnam quos quas ad repellendus nobis facere, quae omnis reiciendis.
+    
+</p>
+
+<script>
+    $(document).ready(function() {
+        $("#changeFont").click(function() {
+            $("#text").css("font-family", "Georgia, serif");
+        });
+
+        $("#makeBold").click(function() {
+            $("#text").css("font-weight", "bold");
+        });
+
+        $("#makeItalic").click(function() {
+            $("#text").css("font-style", "italic");
+        });
+
+        $("#underlineText").click(function() {
+            $("#text").css("text-decoration", "underline");
+        });
+
+        $("#addShadow").click(function() {
+            $("#text").css("text-shadow", "2px 2px 5px gray");
+        });
+    });
+</script>
+
+</body>
+</html>

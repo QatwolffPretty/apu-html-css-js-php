@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Styling with CSS3</title>
+    <style>
+        #text {
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+        }
+
+        .bold {font-weight: bold;}
+    </style>
+</head>
+<body>
+
+<p class="bold">This is my bold text</p>
+
+<button onclick="changeFont()">Change Font</button>
+<button onclick="makeBold()">Make Bold</button>
+<button onclick="makeItalic()">Make Italic</button>
+<button onclick="underlineText()">Underline</button>
+<button onclick="addShadow()">Add Shadow</button>
+<br><br><br><br><br>
+<p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis odio sit adipisci commodi vero ipsa eaque libero autem minima dolorum odit expedita quidem qui officiis ducimus, quibusdam perspiciatis tenetur sed minus iusto omnis asperiores. Voluptate commodi modi numquam at ab nesciunt itaque iste nemo suscipit adipisci, quis expedita corrupti fugiat, ex labore rerum, repudiandae exercitationem? Aliquid explicabo tempore placeat ducimus? Esse totam cumque doloremque sit ipsum in sequi laboriosam repudiandae dignissimos. Eum nostrum eveniet iusto possimus. Repellendus nesciunt mollitia inventore sed adipisci velit est incidunt, autem voluptates, repudiandae molestiae id maxime, eos eligendi. Officia corrupti repudiandae quod blanditiis magni quae.</p>
+
+<script>
+    function changeFont() {
+        document.getElementById('text').style.fontFamily = 'Georgia, serif';
+    }
+
+    function makeBold() {
+        document.getElementById('text').style.fontWeight = 'bold';
+    }
+
+    function makeItalic() {
+        document.getElementById('text').style.fontStyle = 'italic';
+    }
+
+    function underlineText() {
+        document.getElementById('text').style.textDecoration = 'underline';
+    }
+
+    function addShadow() {
+        document.getElementById('text').style.textShadow = '2px 2px 5px red';
+    }
+</script>
+
+</body>
+</html>
